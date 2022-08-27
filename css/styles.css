@@ -53,6 +53,18 @@ header, .alert{
   gap: 2rem;
 }
 .logito{
-  font-family: 'Fela';
-  text-decoration: none;
+  font-family: 'Steady';
+  font-size: 12px;
+}
+@media screen and (min-width:768px) {
+  .logito{
+    font-family: 'Fela';
+    font-size: 16px;
+  }
+}
+@media screen and (min-width:768px) {
+  .logito{
+    font-family: 'Fela';
+    font-size: 18px;
+  }
 }
