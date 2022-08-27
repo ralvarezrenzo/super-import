@@ -1,14 +1,6 @@
 @font-face {
-  font-family: 'Steady';
-  src: url(/fonts/Steady.ttf);
-}
-@font-face {
-  font-family: 'Fela';
-  src: url(/fonts/Fela.otf);
-}
-@font-face {
   font-family: 'Devant Horgen';
-  src: url(/fonts/DevantHorgen-Regular.ttf);
+  src: url(../fonts/DevantHorgen-Regular.ttf);
 }
 
 body{
