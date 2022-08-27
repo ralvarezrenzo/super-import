@@ -6,6 +6,10 @@
   font-family: 'Fela';
   src: url(/fonts/Fela.otf);
 }
+@font-face {
+  font-family: 'Devant Horgen';
+  src: url(/fonts/DevantHorgen-Regular.ttf);
+}
 
 body{
   background-color: #110f0fea;
@@ -53,18 +57,20 @@ header, .alert{
   gap: 2rem;
 }
 .logito{
-  font-family: 'Steady';
-  font-size: 12px;
+  font-family: 'Devant Horgen';
+  text-decoration: none;
+  font-size: 33px;
+}
+.slider__altura img{
+  min-height: 200px;
 }
 @media screen and (min-width:768px) {
   .logito{
-    font-family: 'Fela';
-    font-size: 16px;
+    font-size: 38px;
   }
 }
 @media screen and (min-width:768px) {
   .logito{
-    font-family: 'Fela';
-    font-size: 18px;
+    font-size: 42px;
   }
 }
