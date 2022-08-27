@@ -42,7 +42,6 @@ header, .alert{
   display: none;
 }
 .nosotros{
-  /* flex-direction: row-reverse; */
   gap: 2rem;
 }
 .logito{
