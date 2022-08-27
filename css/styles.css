@@ -1,7 +1,4 @@
-@font-face {
-  font-family: 'Devant Horgen';
-  src: url(../fonts/DevantHorgen-Regular.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@500;700&display=swap');
 
 body{
   background-color: #110f0fea;
@@ -49,20 +46,20 @@ header, .alert{
   gap: 2rem;
 }
 .logito{
-  font-family: 'Devant Horgen';
+  font-family: 'Anton', sans-serif;
   text-decoration: none;
-  font-size: 33px;
+  font-size: 18px;
 }
 .slider__altura img{
   min-height: 200px;
 }
 @media screen and (min-width:768px) {
   .logito{
-    font-size: 38px;
+    font-size: 24px;
   }
 }
-@media screen and (min-width:768px) {
+@media screen and (min-width:992px) {
   .logito{
-    font-size: 42px;
+    font-size: 28px;
   }
 }
